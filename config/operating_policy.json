@@ -1,0 +1,26 @@
+{
+  "north_star": "maximize durable monthly profit, not output volume",
+  "autonomous_actions": [
+    "read_metrics",
+    "propose_experiment",
+    "edit_code",
+    "run_playtest",
+    "run_regression_tests",
+    "publish_zero-spend_canary",
+    "rollback",
+    "update_creator_store_listing_copy_without_price_change"
+  ],
+  "human_only": [
+    "identity_or_tax_verification",
+    "legal_or_ip_dispute",
+    "new_external_paid_budget",
+    "account_security_or_auth_change"
+  ],
+  "hard_bans": [
+    "botting_players_or_visits",
+    "fake_reviews_or_engagement",
+    "copying_proprietary_code_assets_names_or_maps",
+    "captcha_bypass",
+    "unbounded_spend"
+  ]
+}
